@@ -267,5 +267,35 @@ namespace WordleSolver
                 myAnswers.Add(strAnswer);
             }
         }
+
+        private void txtL1_Enter(object sender, EventArgs e)
+        {
+            highlightLetter(txtL1);
+        }
+
+        private void txtL2_Enter(object sender, EventArgs e)
+        {
+            highlightLetter(txtL2);
+        }
+
+        private void txtL3_Enter(object sender, EventArgs e)
+        {
+            highlightLetter(txtL3);
+        }
+
+        private void txtL4_Enter(object sender, EventArgs e)
+        {
+            highlightLetter(txtL4);
+        }
+
+        private void txtL5_Enter(object sender, EventArgs e)
+        {
+            highlightLetter(txtL5);
+        }
+
+        private void highlightLetter(TextBox textboxToChange)
+        {
+            textboxToChange.SelectAll();
+        }
     }
 }

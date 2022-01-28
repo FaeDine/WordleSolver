@@ -83,6 +83,7 @@
             this.txtL1.Size = new System.Drawing.Size(87, 105);
             this.txtL1.TabIndex = 7;
             this.txtL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtL1.Enter += new System.EventHandler(this.txtL1_Enter);
             // 
             // txtL2
             // 
@@ -93,6 +94,7 @@
             this.txtL2.Size = new System.Drawing.Size(87, 105);
             this.txtL2.TabIndex = 8;
             this.txtL2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtL2.Enter += new System.EventHandler(this.txtL2_Enter);
             // 
             // txtL4
             // 
@@ -103,6 +105,7 @@
             this.txtL4.Size = new System.Drawing.Size(87, 105);
             this.txtL4.TabIndex = 10;
             this.txtL4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtL4.Enter += new System.EventHandler(this.txtL4_Enter);
             // 
             // txtL3
             // 
@@ -113,6 +116,7 @@
             this.txtL3.Size = new System.Drawing.Size(87, 105);
             this.txtL3.TabIndex = 9;
             this.txtL3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtL3.Enter += new System.EventHandler(this.txtL3_Enter);
             // 
             // txtL5
             // 
@@ -123,6 +127,7 @@
             this.txtL5.Size = new System.Drawing.Size(87, 105);
             this.txtL5.TabIndex = 11;
             this.txtL5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtL5.Enter += new System.EventHandler(this.txtL5_Enter);
             // 
             // btnL1b
             // 
