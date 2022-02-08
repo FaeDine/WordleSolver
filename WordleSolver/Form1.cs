@@ -43,12 +43,19 @@ namespace WordleSolver
 
         private void showAnswers()
         {
+            // Sort the answers alphabetically.
+            // The answers in the list are chronological, so answers higher in the list
+            // are more likely and move down as time moves on.
+            // Sorting the list removes that as it's not a way I want to win.
+            myAnswers.Sort();
+
             // Clear the list, then add all possible answers to the list
             lstAnswers.Items.Clear();
             foreach (String strAnswer in myAnswers)
             {
                 lstAnswers.Items.Add(strAnswer);
             }
+            
         }
 
         private void setLetters()
